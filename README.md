@@ -62,27 +62,34 @@ You can run the notebooks in the notebooks/ directory to explore the data, imple
 ## Results
 **Heat Flux vs. Wall Superheat**
 
-Figure 1. Log-log plot of Heat Flux vs. Wall Superheat for two levels of gravity (0.098 and 9.8 m/s^2)
+![Figure 3](images/figure3.png)
+Figure 3. Log-log plot of Heat Flux vs. Wall Superheat for two levels of gravity (0.098, 9.8, 19.6 m/s^2)
 
 **Statistical Analysis**
 
-Figure 2. Statistical analysis results using Python statsmodel library for data corresponding to earth and micro gravity
-
-**Heat Flux and Gravity**
-
-Figure 3. Log-log plot of Heat Flux vs. Wall Superheat for two levels of gravity (0.098, 9.8, 19.6 m/s^2)
+![Figure 4](images/figure4.png)
+Figure 4. Statistical analysis results using Python statsmodel library for data corresponding to earth, micro, and 2X gravity
 
 **Initial Guesses Comparison**
 
-Figure 4. Statistical analysis results using Python statsmodel library for data corresponding to earth, micro, and 2X gravity
+Table 7. Top five initial guesses to achieve the lowest RMSE.
+![Table 7](images/table7.png)
+
+Table 8. Top five initial guesses to achieve the lowest MAE
+![Table 8](images/table8.png)
+
+Table 10. Best initial values and resultant minimum and average
+![Table 10](images/table10.png)
 
 **Surface Plot**
 
 Figure 8. 3D surface plot from resulting curve-fit equation
+![Figure 8](images/figure8.png)
 
 **Training and Validation Data**
 
 Figure 10. Training and validation data q' of predicted vs. data
+![Figure 10](images/figure10.png)
 
 ## Contributors
 - Ali Rakhsha
